@@ -11,4 +11,5 @@ func TestSoma(t *testing.T) {
 	if actualResult != expectedResult {
 		t.Errorf("Soma incorreta, obtido: %d, esperado: %d.", actualResult, expectedResult)
 	}
+	
 }
